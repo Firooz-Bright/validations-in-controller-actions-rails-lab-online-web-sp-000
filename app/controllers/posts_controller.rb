@@ -13,7 +13,7 @@ class PostsController < ApplicationController
 
     redirect_to post_path(@post)
   else 
-    render
+    render :edit
   end
 
   private
